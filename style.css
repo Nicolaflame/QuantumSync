@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f4a6e;
+  color: #ffffff;
+}
+
+h1,
+.box {
+  padding: 50px 21px 50px 0px;
+}
+
+.price-btn {
+  margin-top: 25px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #ff6d00;
+  box-shadow: #000;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 18pt;
+}
+
+p {
+  padding-top: 20px;
+  font-size: 14pt;
+}
+
+.container {
+  display: flex;
+  flex-direction: ;
+  padding: 100px;
+  justify-content: space-between;
+}
+
+.box {
+  padding: 25px;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.cta {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background: #ff6d00;
+  padding: 10px 10px;
+  margin-bottom: 30px;
+}
+
+.sub-form {
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 2px solid #ff6d00;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 30px;
+}
+.form-box {
+  justify-content: center;
+}
+.form-btn {
+  margin-top: 25px;
+  margin-left: 10px;
+  width: 50px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #ff6d00;
+}
+
+.inputs {
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ff6d00;
+  padding: 5px;
+  width: 150px;
+}
+
+/* Pricing page */
+.price-ttl {
+  justify-content: center;
+  text-align: center;
+}
+
+.explanation {
+  font-size: 8pt;
+  color: #e0e0e0;
+}
+
+.plan-name {
+  text-align: center;
+}
+
+.features {
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+  width: 100px;
+  border: 1px solid #bdb3b3;
+  font-size: 13px;
+}
+table {
+  border: 5px solid #000;
+  border-radius: 20px;
+  justify-content: center;
+  margin: 10px;
+  text-wrap: 20;
+  padding-top: 20px;
+}
+
+.table-head {
+  font-size: 21pt;
+  color: #ff6d00;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+
+td {
+  padding: 1rem;
+  text-align: center;
+  border-left: 1px solid #000;
+}
